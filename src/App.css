@@ -1,0 +1,86 @@
+@import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+.card-header-custom {
+  background-color: white !important;
+  border-top: 2px solid #f48220 !important;
+}
+.card-options {
+  margin-left: auto;
+  display: inline-block;
+  -ms-flex-order: 100;
+  order: 100;
+  margin-right: -0.5rem;
+  color: #9aa0ac;
+  -ms-flex-item-align: center;
+  align-self: center;
+  float: right;
+}
+
+.brround {
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 1rem;
+}
+.vl {
+  border-right: 1px solid #ddd6ce;
+}
+
+.text-list-header {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6c757d;
+}
+.text-gray-custom {
+  color: #6c757d;
+}
+
+.text-list-value {
+  font-size: 14px;
+}
+
+.br-custom-left {
+  border-left: 2px solid blue;
+}
+
+.avatar {
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  vertical-align: bottom;
+}
+
+.media-body {
+  display: table-cell;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.list-group-item:hover {
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+.pointer {
+  cursor: pointer;
+}
+.contact-card-height {
+  min-width: 128px;
+}
+/****Overwrite****/
+.list-group-item {
+  padding: 0.25rem 0.25rem !important;
+}
+
+.card-custom-border {
+  border-right: 0px !important ;
+  border-left: 0px !important ;
+  border-bottom: 0px !important ;
+}
+
+.nav-item {
+  text-decoration: none !important;
+  padding: 0 8px;
+}
